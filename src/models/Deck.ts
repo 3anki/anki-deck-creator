@@ -2,20 +2,20 @@ import { Media } from './Media';
 import { Note } from './Note';
 
 export class Deck {
-  public name: string;
-  public notes: Note[] = [];
-  public media: Media[] = [];
+  private _name: string;
+  private _notes: Note[] = [];
+  private _media: Media[] = [];
 
   constructor(name: string) {
-    this.name = name;
+    this._name = name;
   }
 
   public addNote(note: Note): void {
-    this.notes.push(note);
+    this._notes.push(note);
   }
 
   public addMedia(media: Media): void {
-    this.media.push(media);
+    this._media.push(media);
   }
 
   public exportToAPKG(): void {
