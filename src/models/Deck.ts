@@ -17,4 +17,8 @@ export class Deck {
   public addMedia(media: Media): void {
     this.media.push(media);
   }
+
+  public exportToAPKG(): void {
+    // TODO: Implement
+  }
 }
