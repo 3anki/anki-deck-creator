@@ -2,9 +2,11 @@
   "name": "anki-deck-creator",
   "version": "0.0.1",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "imlutr",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
 }
