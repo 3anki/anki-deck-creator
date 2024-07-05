@@ -1,7 +1,7 @@
-import { Media } from "./Media";
-import { Note } from "./Note";
+import { Media } from './Media';
+import { Note } from './Note';
 
-class Deck {
+export class Deck {
   public name: string;
   public notes: Note[] = [];
   public media: Media[] = [];
